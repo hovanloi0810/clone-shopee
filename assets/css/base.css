@@ -10,6 +10,7 @@
     --header-height: 120px; /*height của Tổng header*/
     --navbar-height: 34px;  /*height của header navbar*/
     --header-width-search-height: calc(var(--header-height) - var(--navbar-height)); /*height của Tổng header - height của header navbar = header-with-search*/
+    --header-sort-bar-height: 46px;
 }
 
 * {
@@ -22,20 +23,9 @@ html {
     line-height: 1.6rem;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box; /*all element in html inherit form html box-sizing: border-box*/
-    
 }
 
 /* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-width {
-    width: 100%;
-}
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
